@@ -10,6 +10,8 @@ const PokeList = ({ pokemons }) => {
                     image={pokemon.sprites.front_default} 
                     types={pokemon.types}
                     key={pokemon.name} 
+                    id={pokemon.id}
+                    favorite={pokemon.favorite}
                 />;
 
             })}
